@@ -10,7 +10,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday Doe!"
-        android:textSize="36sp"/>
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -18,7 +19,8 @@
         android:text="From John"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:textSize="36sp"/>
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light" />
 
     <ImageView
         android:layout_width="match_parent"
