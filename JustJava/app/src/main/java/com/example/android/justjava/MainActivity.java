@@ -17,7 +17,7 @@ import java.text.NumberFormat;
  * This app displays an order form to order coffee.
  */
 public class MainActivity extends AppCompatActivity {
-    int quantity = 2;
+    int quantity = 0;
 
 
     @Override
@@ -30,9 +30,7 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the order button is clicked.
      */
     public void submitOrder(View view) {
-        int quantity = 3;
-        display(quantity);
-        display(quantity * 5);
+        displayPrice(quantity * 5);
     }
 
     /**
