@@ -54,15 +54,16 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the increment button is clicked.
      */
     public void increment(View view) {
-        int quantity = 3;
-        display(quantity);
-    }
+        int quantity = 2;
+        quantity = 3;
+        display(quantity);}
 
     /**
      * This method is called when the decrement button is clicked.
      */
     public void decrement(View view) {
-        int quantity = 1;
+        int quantity = 2;
+        quantity = 1;
         display(quantity);
     }
 }
